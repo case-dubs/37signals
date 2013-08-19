@@ -1,0 +1,261 @@
+* {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+
+#header {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	right: 0px;
+	height: 45px;
+	min-width: 800px;
+}
+
+#welcome {
+	position: relative;
+	display: inline-block;
+	padding-left: 35px;
+	color: #a7a6a6;
+	padding-top: 25px;
+	float: left;
+}
+
+#nav_ul{
+	position: relative;
+	float: right;
+	display: inline-block;
+	padding-right: 35px;
+	padding-top: 10px;
+}
+
+#nav_ul li {
+	position: relative;
+	display: inline;
+	padding-right: 15px;
+}
+
+
+#nav_ul li a {
+	color: #3b579a;
+	text-decoration: none;
+}
+
+#nav_ul li a:hover {
+	color: #8ba7ea;
+}
+
+#sign_in a{
+	color: #8ba7ea;
+}
+
+#sign_in a:hover{
+	color: #3b579a;
+}
+
+#container {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 800px;
+	max-width: 900px;
+}
+
+#logo {
+	position: relative;
+	display: block;
+	height: 60px;
+	top: 30px;
+	width: 70%;
+	/*padding-left: 350px;
+	padding-right: 350px;*/
+	min-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#logo img {
+	width: 164px;
+	height: 39px;
+}
+
+.purpose_slogan {
+	position: relative;
+	display: block;
+	height: 150px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: times;
+	font-size: 55px;
+	top: 30px;
+	text-align: center;
+	min-width: 800px;
+	max-width: 900px;
+}
+
+.purpose_hidden_slogan {
+	position: relative;
+	display: block;
+	height: 150px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: times;
+	font-size: 38px;
+	top: 30px;
+	text-align: center;
+	min-width: 800px;
+	max-width: 900px;
+	display: none;
+	z-index: 3;
+}
+
+.purpose_hidden_slogan a {
+	text-decoration: underline;
+	font-size: 38px;
+	color: #3b579a;
+	font-family: times;
+}
+
+
+.sub_slogan {
+	position: relative;
+	display: block;
+	height: 35px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: times;
+	font-size: 21px;
+	top: 15px;
+	text-align: center;
+	min-width: 900px;
+}
+
+.hidden_sub_slogan {
+	position: relative;
+	display: block;
+	height: 35px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: times;
+	font-size: 21px;
+	top: -20px;
+	text-align: center;
+	min-width: 900px;
+	display: none;
+}
+
+#products {
+	position: relative;
+	top: 30px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 700px;
+	padding-left: 80px;
+	padding-right: 80px;
+
+}
+
+.product_types {
+	height: 230px;
+	width: 175px;
+	border-radius: 10px;
+	border: .5px solid  #d5d7d8;
+	box-shadow: 3px 3px #e4e6e7;
+	background: linear-gradient(top, white 50%, #e4e6e7 50%);
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #E4E6E7 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #E4E6E7 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #E4E6E7 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E4E6E7));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E4E6E7 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #E4E6E7 100%);
+	display: inline-block;
+	position: relative;
+	margin-left: 40px;
+	top: 20px;
+	clear: both;
+}
+
+.product_types a {
+	text-decoration: none;
+}
+
+/*How do background image url's work? Say I want to make a photo my background image? do those correspond to imgs in index.html?*/
+
+.product_logo {
+	position: relative;
+	top: 20px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.product-arrow {
+	top: -50px;
+	right: -50px;
+	position: absolute;
+	display: none;
+}
+
+.product-arrow img {
+	height: 75px;
+}
+
+#campfire-arrow {
+	left: -40px;
+}
+
+.product_name {
+	position: relative;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 22px;
+	font-weight: bold;
+	color: #3b579a;
+	top: 20px;
+}
+
+.product_use {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #da0161;
+}
+
+.product_use_sub {
+	position: relative;
+	top: 25px;
+	text-align: center;
+	font-size: 15px;
+	color: #3e3e3e;
+	line-height: 150%;
+	padding: 15px 15px;
+}
+
+.asterics {
+	position: relative;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: georgia;
+	font-size: 28px;
+	color: gray;
+	word-spacing: 1em;
+	text-align: center;
+	margin-top: 75px;
+	min-width: 900px;
+	top: 25px;
+}
